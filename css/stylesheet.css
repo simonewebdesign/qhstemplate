@@ -115,9 +115,16 @@ You can remove the .jumbotron namespace if needed. */
   background: #fff;
   border-radius: 6px;
   margin-bottom: 20px;
+
+  /* will hide images' corners */
+  overflow: hidden;
 }
-.box button {
+/*.box button {
   margin-bottom: 20px;
+}*/
+
+.box-content {
+  padding: 0 20px 20px 20px;
 }
 /* ----------------------------- */
 
