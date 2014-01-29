@@ -1,0 +1,164 @@
+/* Custom Buttons
+-------------------------------------------------- */
+/* Overriding default Bootstrap's buttons. */
+
+/* 
+Overriding default colors.
+Also add a cool inset box-shadow, as per the original template design.
+*/
+.btn-success {
+  box-shadow: inset 0 -3px 0 #678e21;
+  background-color: #8abe2c;
+  border-color: #678e21;
+  text-shadow: 1px 1px 0 #678e21;
+}
+.btn-success:hover, .btn-success:active, .btn-success:focus {
+  background-color: #87b631;
+}
+/* ----------------------------- */
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Place global template styles here. */
+body {
+  background-image: url('../images/pattern_white_body.png');
+}
+
+.jumbotron > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* for debugging purposes */
+.container {
+  background: rgba(255,0,0,.1);
+}
+
+/* Needed because <select> won't take up 100% width (not sure why). 
+You can remove the .jumbotron namespace if needed. */
+.jumbotron .form-inline select.form-control {
+  width: 100%;
+}
+
+/* all H3s in the page */
+#wrap h3 {
+  color: #1985b6;
+}
+
+/* all paragraphs in the Page content */
+.page-content-wrapper {
+  color: #8d8d8d;
+}
+/* ----------------------------- */
+
+
+/* Navbar
+-------------------------------------------------- */
+/* Yes, the one fixed on the top. */
+.navbar {
+  border: 0;
+  background-image: url('../images/pattern_blue_header.png');
+  min-height: 83px;
+}
+
+.sub-navbar {
+  top: 79px;
+  background-image: url('../images/strip_background.png');
+  min-height: 48px;
+}
+/* ----------------------------- */
+
+
+/* Jumbotron
+-------------------------------------------------- */
+/* The main image and form. */
+.jumbotron {
+  /* Awesome, Easy, Progressive CSS3 Way for achieving a perfect full page
+  background image. This will probably be a temporary solution, since the browser's
+  support is not very good. It works in:
+  - Safari 3+
+  - Chrome Whatever+
+  - IE 9+
+  - Opera 10+ (Opera 9.5 supported background-size but not the keywords)
+  - Firefox 3.6+ (Firefox 4 supports non-vendor prefixed version)
+
+  Technique described here: http://css-tricks.com/perfect-full-page-background-image/
+  */
+  background: url('../images/hero-image.png') no-repeat center center fixed; 
+  -webkit-background-size: contain; /* the alternative is contain */
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  /* It has to stay just right behind the navbar */
+  background-position: 0 122px;
+  
+  /* The background position must be subtracted to the margin
+  in order to create an offset. */
+/*  margin-top: 122px;*/
+
+  /* I assume the height is fixed to the 
+  background image height. */
+  height: 810px;
+
+  /* Just to make sure it won't look bad on very high resolutions */
+/*  background-color: #583724;*/
+}
+
+.jumbotron h1,
+.jumbotron h2 {
+  color: #fff;
+}
+.jumbotron h1 {
+  text-shadow: 0 4px 12px rgba(0, 0, 0, .6);
+}
+.jumbotron h2 {
+  text-shadow: 0 3px 9px rgba(0, 0, 0, .6);
+}
+/* ----------------------------- */
+
+
+/* Box
+-------------------------------------------------- */
+.box {
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 6px;  
+}
+.box button {
+  margin-bottom: 20px;
+}
+/* ----------------------------- */
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+/* ----------------------------- */
