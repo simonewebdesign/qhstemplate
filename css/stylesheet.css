@@ -27,9 +27,6 @@ body {
   margin-top: 122px;
 }
 
-.jumbotron > .container {
-  padding: 60px 15px 0;
-}
 .container .text-muted {
   margin: 20px 0;
 }
@@ -108,6 +105,10 @@ You can remove the .jumbotron namespace if needed. */
 }
 .jumbotron h2 {
   text-shadow: 0 3px 9px rgba(0, 0, 0, .6);
+}
+
+.jumbotron > .container {
+  padding: 330px 15px 0;
 }
 /* ----------------------------- */
 
