@@ -36,11 +36,6 @@ body {
   padding-right: 15px;
 }
 
-/* for debugging purposes */
-.container {
-  background: rgba(255,0,0,.1);
-}
-
 /* Needed because <select> won't take up 100% width (not sure why). 
 You can remove the .jumbotron namespace if needed. */
 .jumbotron .form-inline select.form-control {
@@ -118,7 +113,8 @@ You can remove the .jumbotron namespace if needed. */
 .box {
   border: 1px solid #ccc;
   background: #fff;
-  border-radius: 6px;  
+  border-radius: 6px;
+  margin-bottom: 20px;
 }
 .box button {
   margin-bottom: 20px;
