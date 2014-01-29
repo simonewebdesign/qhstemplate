@@ -61,6 +61,10 @@
     min-height: 83px;
   }
 
+  .navbar-fixed-top a {
+    color: #fff;
+  }
+
   .sub-navbar {
     top: 79px;
     background-image: url('../images/strip_background.png');
