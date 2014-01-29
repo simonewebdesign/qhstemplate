@@ -22,7 +22,7 @@
   body {
     background-image: url('../images/pattern_white_body.png');
     /* margin-top set to navbar's height */
-    margin-top: 122px;
+    padding-top: 122px;
   }
 
   .container .text-muted {
