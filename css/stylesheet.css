@@ -56,7 +56,7 @@ You can remove the .jumbotron namespace if needed. */
 
 /* Navbar
 -------------------------------------------------- */
-/* Yes, the one fixed on the top. */
+/* Yes, the one on the top. */
 .navbar {
   border: 0;
   background-image: url('../images/pattern_blue_header.png');
@@ -119,9 +119,6 @@ You can remove the .jumbotron namespace if needed. */
   /* will hide images' corners */
   overflow: hidden;
 }
-/*.box button {
-  margin-bottom: 20px;
-}*/
 
 .box-content {
   padding: 0 20px 20px 20px;
