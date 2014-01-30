@@ -87,8 +87,12 @@
 /* Yes, the one on the top. */
   .navbar {
     border: 0;
-    background-image: url('../images/pattern_blue_header.png');
     min-height: 83px;
+
+    /* The dotted background */
+    background-color: #1985B6;
+    background-image: radial-gradient(#177BA8 30%, transparent 60%);
+    background-size: 4px 4px;
   }
 
   .navbar-fixed-top a {
