@@ -197,11 +197,11 @@
 
   .title-dark {
     color: #333;
-    text-shadow: 0 3px 0 #000;
+    text-shadow: 0 3px 0 rgba(0,0,0,.1);
   }
   .title-light {
     color: #fff;
-    text-shadow: 0 3px 0 #ddd, 0 0 3px rgba(0,0,0,.1);
+    text-shadow: 0 3px 0 #ddd, 0 0 3px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.4);
   }
 
   .title-top-left { top: 60px; left: 60px; }
