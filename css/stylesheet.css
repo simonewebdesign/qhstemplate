@@ -2,7 +2,7 @@
 -------------------------------------------------- */
 /* Overriding default Bootstrap's buttons. */
 
-  /* Overriding default colors.
+  /* Success. Overriding default colors.
   Also add a cool inset box-shadow, as per the original template design. */
   .btn-success {
     box-shadow: inset 0 -3px 0 #678e21;
@@ -13,6 +13,19 @@
   .btn-success:hover, .btn-success:active, .btn-success:focus {
     background-color: #87b631;
   }
+
+  /* Primary. Overriding default colors.
+  Also add a cool inset box-shadow, as per the original template design. */
+  .btn-primary {
+    box-shadow: inset 0 -3px 0 #15719b;
+    background-color: #1985b6;
+    border-color: #15719b;
+    text-shadow: 1px 1px 0 #15719b;
+  }
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #1d81af;
+  }
+
 /* --------------------------------------------- */
 
 
@@ -124,7 +137,12 @@
   }
 
   .box-content {
-    padding: 0 20px 20px 20px;
+    padding: 30px;
+  }
+
+  .box h3 {
+    /* quick reset */
+    margin-top: 0;
   }
 
   .box button {
