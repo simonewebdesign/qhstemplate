@@ -45,8 +45,6 @@
     background-image: url('../images/pattern_white_body.png');
     /* margin-top set to navbar's height */
     padding-top: 122px;
-
-    font-size: 16px;
   }
 
   .container .text-muted {
@@ -72,6 +70,14 @@
   /* all paragraphs in the Page content */
   .page-content-wrapper {
     color: #8d8d8d;
+    /* base font size for content (equals 16px) */
+    font-size: 1.143em;
+  }
+
+  .place {
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: right;
   }
 /* --------------------------------------------- */
 
@@ -106,7 +112,8 @@
     margin:0;
     padding:0;
     background: none;
-    font-size: .8em;
+    /* equals 12px */
+    font-size: 0.857em;
     /* must be the same as .sub-navbar's min-height */
   }
 
@@ -114,7 +121,6 @@
   .breadcrumb > li + li:before { 
     content: "\003e"
   }
-
 /* --------------------------------------------- */
 
 
