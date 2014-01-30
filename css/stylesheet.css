@@ -1,3 +1,13 @@
+/* Colors Reference
+-------------------------------------------------- */
+/*
+  Light blue:         #1985b6
+  Dark blue:          #15719b
+  Light green:        #8abe2c
+  Dark green:         #678e21
+/* --------------------------------------------- */
+
+
 /* Buttons
 -------------------------------------------------- */
 /* Overriding default Bootstrap's buttons. */
@@ -25,7 +35,6 @@
   .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background-color: #1d81af;
   }
-
 /* --------------------------------------------- */
 
 
@@ -148,6 +157,37 @@
   .box button {
     margin-top: 20px;
   }
+/* --------------------------------------------- */
+
+
+/* Title
+-------------------------------------------------- */
+/* Helper classes to build titles. */
+
+  .title {
+    /* It will always be absolute positioned. */
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+  }
+
+  .title-dark {
+    color: #333;
+    text-shadow: 0 3px 0 #000;
+  }
+  .title-light {
+    color: #fff;
+    text-shadow: 0 3px 0 #ddd, 0 0 3px rgba(0,0,0,.1);
+  }
+
+  .title-top-left { top: 60px; left: 60px; }
+  .title-top-right { top: 60px; right: 60px; }
+  /*
+    These styles will need some extra tweaks in order to work.
+    .title-bottom-left { bottom: 60px; left: 60px; }
+    .title-bottom-right { bottom: 60px; right: 60px; }
+  */
 /* --------------------------------------------- */
 
 
