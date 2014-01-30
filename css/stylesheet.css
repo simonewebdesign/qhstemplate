@@ -1,6 +1,6 @@
 /* Colors Reference
 -------------------------------------------------- */
-/*
+  /*
   Light blue:         #1985b6
   Dark blue:          #15719b
   Light green:        #8abe2c
@@ -45,6 +45,8 @@
     background-image: url('../images/pattern_white_body.png');
     /* margin-top set to navbar's height */
     padding-top: 122px;
+
+    font-size: 16px;
   }
 
   .container .text-muted {
@@ -89,9 +91,30 @@
 
   .sub-navbar {
     top: 79px;
-    background-image: url('../images/strip_background.png');
+    background: url('../images/strip_background.png') repeat-x;
     min-height: 48px;
+    line-height: 48px;
+    color: white;
   }
+/* --------------------------------------------- */
+
+
+/* Breadcrumb
+-------------------------------------------------- */
+/* Resetting default Bootstrap's styles */
+  .breadcrumb {
+    margin:0;
+    padding:0;
+    background: none;
+    font-size: .8em;
+    /* must be the same as .sub-navbar's min-height */
+  }
+
+  /* Changing default separator to > (was /) */
+  .breadcrumb > li + li:before { 
+    content: "\003e"
+  }
+
 /* --------------------------------------------- */
 
 
