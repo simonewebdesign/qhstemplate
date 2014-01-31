@@ -89,6 +89,7 @@
     border: 0;
     background: #1985B6 url('../images/pattern_blue_header.png');
     min-height: 83px;
+    text-shadow: 0 2px 0 #15719b;
   }
 
   .navbar-fixed-top a {
@@ -126,6 +127,10 @@
     /* Give a padding top equal to .navbar's height, in order to push it up */
     body {
       padding-top: 83px;
+    }
+    .navbar {
+      /* Give it a border, just because it's nice. */
+      border-bottom: 3px solid #15719b;
     }
   }
 /* --------------------------------------------- */
@@ -274,6 +279,13 @@ update every measure:
     height: 340px;
     background-color: #f5f5f5;
   }
+
+  @media (max-width: 768px) {
+    /* On small devices, #footer doesn't have to be sticky. */
+    div#footer {
+      height: auto;
+    }
+  }
 /* --------------------------------------------- */
 
 
@@ -301,14 +313,24 @@ update every measure:
     line-height: 30px;
   }
 
-
-  #enquiry {
+  a#enquiry {
     position: fixed;
     bottom: 0;
-    background: green;
     right: 60px;
     color: white;
     padding: 15px;
+    background: #8abe2c;
+    border-bottom: 3px solid #678e21;
+    text-shadow: 0 1px 0 #678e21;
+    border-radius: 6px 6px 0 0;
+  }
+  a#enquiry:hover {
+    text-decoration: none;
+    background: #87b631;
+  }
+  a#enquiry:active {
+    border: 0;
+    background: #8abe2c;
   }
 
   .social-links a {
@@ -326,4 +348,12 @@ update every measure:
   .social-links .googleplus {
     background-position: right;
   }
+/* --------------------------------------------- */
+
+
+/* Special
+-------------------------------------------------- */
+/* Because details are important! */
+  ::-moz-selection { background:#8abe2c; }
+  ::selection { background:#8abe2c; }
 /* --------------------------------------------- */
