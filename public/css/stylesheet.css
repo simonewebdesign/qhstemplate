@@ -1,10 +1,12 @@
 /* Colors Reference
 -------------------------------------------------- */
   /*
-  Light blue:         #1985b6
-  Dark blue:          #15719b
-  Light green:        #8abe2c
-  Dark green:         #678e21
+  Light blue:               #1985b6;
+  Dark blue:                #15719b;
+  Light green:              #8abe2c;
+  Dark green:               #678e21;
+  Light footer gray:        #536270;
+  Dark footer gray:         #4f5d6b;
 /* --------------------------------------------- */
 
 
@@ -300,6 +302,7 @@ update every measure:
     background-image: radial-gradient(#4f5d6b 30%, transparent 60%);
     background-size: 4px 4px; */
     background: #536270; /* TODO add bg img (ask Matt) */
+    text-shadow: 0 2px 0 rgba(0,0,0,.2);
   }
 
   #footer, #footer a {
