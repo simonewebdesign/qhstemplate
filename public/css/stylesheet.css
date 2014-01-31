@@ -326,6 +326,7 @@ update every measure:
     border-bottom: 3px solid #678e21;
     text-shadow: 0 1px 0 #678e21;
     border-radius: 6px 6px 0 0;
+    box-shadow: 0 -3px 18px 6px rgba(0,0,0,.1);
   }
   a#enquiry:hover {
     text-decoration: none;
