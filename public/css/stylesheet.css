@@ -111,7 +111,27 @@
   }
 
   .navbar-right {
-    margin-top: 17px;
+    margin-top: 16px;
+  }
+
+  .nav > li {
+    margin-right: 5px;
+  }
+  .nav > li > a {
+    transition: background-color .2s ease-out;
+  }
+
+  .nav > li > a,
+  .nav > li > a:hover,
+  .nav > li > a:focus,
+  .nav > li.active {
+    border-radius: 6px;
+  }
+
+  .nav > li > a:hover, 
+  .nav > li > a:focus,
+  .nav > li.active {
+    background-color: #15719b;
   }
 
   @media (min-width: 768px) and (max-width: 991px) {
@@ -358,6 +378,10 @@ update every measure:
 /* Special
 -------------------------------------------------- */
 /* Because details are important! */
-  ::-moz-selection { background:#8abe2c; }
-  ::selection { background:#8abe2c; }
+  ::-moz-selection { background: #6F5499; }
+  ::selection { background: #6F5499; }
 /* --------------------------------------------- */
+
+.nav > li > a, .nav > li > a:hover, .nav > li.act {
+    border-radius: 6px;
+  }
