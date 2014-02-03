@@ -69,8 +69,9 @@
 
 /* Forms
 -------------------------------------------------- */
-/* blablabla */
-  /* Needed because form elements won't take up 100% width by default. */
+/* */
+  /* Needed because form elements won't actually
+  take up 100% width by default, as said in the documentation. */
   .form-inline .form-control {
     width: 100%;
   }
