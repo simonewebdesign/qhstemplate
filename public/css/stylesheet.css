@@ -3,6 +3,7 @@
   /*
   Light blue:               #1985b6;
   Dark blue:                #15719b;
+  Darker blue:              #0e5275;
   Light green:              #8abe2c;
   Dark green:               #678e21;
   Light footer gray:        #536270;
@@ -67,18 +68,6 @@
 /* --------------------------------------------- */
 
 
-/* Forms
--------------------------------------------------- */
-/* */
-  /* Needed because form elements won't actually
-  take up 100% width by default, as said in the documentation. */
-  .form-inline .form-control {
-    width: 100%;
-  }
-
-/* --------------------------------------------- */
-
-
 /* Navbar
 -------------------------------------------------- */
 /* Yes, the one on the top. */
@@ -90,7 +79,7 @@
   }
 
   .navbar-fixed-top a {
-    color: #fff;
+    color: white;
   }
 
   .navbar-brand {
@@ -156,7 +145,6 @@
 /* Breadcrumb
 -------------------------------------------------- */
 /* Resetting default Bootstrap's styles */
-
   .breadcrumb-wrapper {
     min-height: 38px;
     line-height: 38px;
@@ -170,7 +158,10 @@
     background: none;
     /* equals 12px */
     font-size: 0.857em;
-    /* must be the same as .breadcrumb-wrapper's min-height */
+  }
+
+  .breadcrumb, .place {
+    text-shadow: 0 2px 0 #0e5275;    
   }
 
   /* Changing default separator to > (was /) */
@@ -202,6 +193,7 @@
     }
   }
 
+
 /* --------------------------------------------- */
 
 
@@ -227,7 +219,7 @@
   }
 
   .jumbotron h1, .jumbotron h2 {
-    color: #fff;
+    color: white;
   }
   .jumbotron h1 {
     text-shadow: 0 4px 12px rgba(0, 0, 0, .6);
@@ -247,7 +239,7 @@
 /* Helper classes to build a simple box. */
   .box {
     border: 1px solid #ccc;
-    background: #fff;
+    background: white;
     border-radius: 6px;
     margin-bottom: 20px;
 
@@ -286,7 +278,7 @@
     text-shadow: 0 3px 0 rgba(0,0,0,.1);
   }
   .title-light {
-    color: #fff;
+    color: white;
     text-shadow: 0 3px 0 #ddd, 0 0 3px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.4);
   }
 
@@ -425,6 +417,19 @@
     background-position: right;
   }
 /* --------------------------------------------- */
+
+
+/* Forms
+-------------------------------------------------- */
+/* */
+  /* Needed because form elements won't actually
+  take up 100% width by default, as said in the documentation. */
+  .form-inline .form-control {
+    width: 100%;
+  }
+
+/* --------------------------------------------- */
+
 
 
 /* Special
