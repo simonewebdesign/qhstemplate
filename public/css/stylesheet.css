@@ -251,6 +251,10 @@
     padding: 30px;
   }
 
+  .content-centered {
+    text-align: center;
+  }
+
   .box h3 {
     /* quick reset */
     margin-top: 0;
@@ -427,9 +431,7 @@
   .form-inline .form-control {
     width: 100%;
   }
-
 /* --------------------------------------------- */
-
 
 
 /* Special
