@@ -7,3 +7,7 @@ end
 get '/about' do
   erb :about
 end
+
+get '/servicing' do
+  erb :servicing
+end
