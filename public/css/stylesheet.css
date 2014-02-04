@@ -263,6 +263,31 @@
   .box button {
     margin-top: 20px;
   }
+
+  .box-pullout {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .box-pullout img {
+  }
+
+  .box-pullout ul {
+    padding-left: 0;
+    list-style: none;
+    text-align: left;
+  }
+
+  .box-pullout li {
+    background: url('../images/green-tick-mark.png') no-repeat center left;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    line-height: 20px;
+  }
+
+  .box-pullout button {
+    width: 100%;
+  }
 /* --------------------------------------------- */
 
 
