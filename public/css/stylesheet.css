@@ -35,6 +35,10 @@
     /* base font size for content (equals 16px) */
     font-size: 1.143em;
   }
+
+  .row-pushup {
+    margin-top: -180px;
+  }
 /* --------------------------------------------- */
 
 
@@ -267,9 +271,7 @@
   .box-pullout {
     padding: 15px;
     text-align: center;
-  }
-
-  .box-pullout img {
+    background: rgba(255,255,255,.9);
   }
 
   .box-pullout ul {
